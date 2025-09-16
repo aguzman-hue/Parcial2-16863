@@ -56,6 +56,7 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp loc="(220,170)" name="CLA"/>
   </circuit>
   <circuit name="CLA">
     <a name="appearance" val="logisim_evolution"/>
@@ -139,5 +140,107 @@
     <wire from="(430,60)" to="(460,60)"/>
     <wire from="(440,90)" to="(440,250)"/>
     <wire from="(440,90)" to="(460,90)"/>
+  </circuit>
+  <circuit name="CLA2">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="CLA2"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(270,150)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A0"/>
+    </comp>
+    <comp lib="0" loc="(270,170)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B0"/>
+    </comp>
+    <comp lib="0" loc="(270,230)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(270,250)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="0" loc="(270,310)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(270,330)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="d2"/>
+    </comp>
+    <comp lib="0" loc="(270,390)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(270,410)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="d3"/>
+    </comp>
+    <comp lib="0" loc="(320,480)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="C4"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(320,80)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="C0"/>
+    </comp>
+    <comp lib="0" loc="(420,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="S0"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(420,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="S1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(420,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="S2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(420,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="S3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="3" loc="(340,160)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="3" loc="(340,240)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="3" loc="(340,320)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="3" loc="(340,400)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <wire from="(270,150)" to="(300,150)"/>
+    <wire from="(270,170)" to="(300,170)"/>
+    <wire from="(270,230)" to="(300,230)"/>
+    <wire from="(270,250)" to="(300,250)"/>
+    <wire from="(270,310)" to="(300,310)"/>
+    <wire from="(270,330)" to="(300,330)"/>
+    <wire from="(270,390)" to="(300,390)"/>
+    <wire from="(270,410)" to="(300,410)"/>
+    <wire from="(320,180)" to="(320,220)"/>
+    <wire from="(320,260)" to="(320,300)"/>
+    <wire from="(320,340)" to="(320,380)"/>
+    <wire from="(320,420)" to="(320,480)"/>
+    <wire from="(320,80)" to="(320,140)"/>
+    <wire from="(340,160)" to="(420,160)"/>
+    <wire from="(340,240)" to="(420,240)"/>
+    <wire from="(340,320)" to="(420,320)"/>
+    <wire from="(340,400)" to="(420,400)"/>
   </circuit>
 </project>
