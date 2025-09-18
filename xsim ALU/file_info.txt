@@ -1,0 +1,7 @@
+alu_add.v,systemverilog,xil_defaultlib,../../../../../../../../../Aritmetic Logic Unit/Aritmetic Logic Unit.srcs/sources_1/new/alu_add.v,incdir="D:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+alu_logic.v,systemverilog,xil_defaultlib,../../../../../../../../../Aritmetic Logic Unit/Aritmetic Logic Unit.srcs/sources_1/new/alu_logic.v,incdir="D:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+alu_shift.v,systemverilog,xil_defaultlib,../../../../../../../../../Aritmetic Logic Unit/Aritmetic Logic Unit.srcs/sources_1/new/alu_shift.v,incdir="D:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+alu_sub.v,systemverilog,xil_defaultlib,../../../../../../../../../Aritmetic Logic Unit/Aritmetic Logic Unit.srcs/sources_1/new/alu_sub.v,incdir="D:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+alutop.v,systemverilog,xil_defaultlib,../../../../../../../../../Aritmetic Logic Unit/Aritmetic Logic Unit.srcs/sources_1/new/alutop.v,incdir="D:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+alu_tb.v,systemverilog,xil_defaultlib,../../../../../../../../../Aritmetic Logic Unit/Aritmetic Logic Unit.srcs/sources_1/new/alu_tb.v,incdir="D:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v
