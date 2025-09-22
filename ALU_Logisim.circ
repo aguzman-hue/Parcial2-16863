@@ -75,7 +75,6 @@
       <a name="facing" val="west"/>
       <a name="label" val="Carry_flag"/>
       <a name="output" val="true"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(560,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -107,7 +106,6 @@
     <comp lib="0" loc="(210,170)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="A"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(210,260)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -134,19 +132,19 @@
     <comp lib="1" loc="(510,320)" name="AND Gate"/>
     <comp lib="1" loc="(640,190)" name="OR Gate"/>
     <comp lib="1" loc="(640,320)" name="XOR Gate"/>
-    <comp lib="8" loc="(214,204)" name="Text">
+    <comp lib="8" loc="(210,200)" name="Text">
       <a name="text" val="A"/>
     </comp>
-    <comp lib="8" loc="(214,248)" name="Text">
+    <comp lib="8" loc="(210,245)" name="Text">
       <a name="text" val="B"/>
     </comp>
-    <comp lib="8" loc="(218,306)" name="Text">
+    <comp lib="8" loc="(215,305)" name="Text">
       <a name="text" val="Cin"/>
     </comp>
-    <comp lib="8" loc="(652,171)" name="Text">
+    <comp lib="8" loc="(650,170)" name="Text">
       <a name="text" val="Cout"/>
     </comp>
-    <comp lib="8" loc="(656,304)" name="Text">
+    <comp lib="8" loc="(655,300)" name="Text">
       <a name="text" val="Sum"/>
     </comp>
     <wire from="(210,170)" to="(240,170)"/>
