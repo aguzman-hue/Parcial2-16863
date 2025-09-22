@@ -6,4 +6,4 @@ Parcial 2 Ana Isabel
 [Enlace a Video](https://youtu.be/hMmxSW_MNKY)
 
 ### Ejercicio 4, Serie 3 ALU 
-[Enlace a Video](https://youtu.be/x7t10jzgUQA)
+[Enlace a Video](https://youtu.be/JULSQxfO1uQ)
