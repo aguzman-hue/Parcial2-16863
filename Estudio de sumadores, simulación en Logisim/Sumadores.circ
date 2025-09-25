@@ -62,90 +62,87 @@
     <a name="circuit" val="CLA"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(120,120)" name="Pin">
+    <comp lib="0" loc="(120,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="Cin"/>
     </comp>
-    <comp lib="0" loc="(120,60)" name="Pin">
+    <comp lib="0" loc="(120,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(120,90)" name="Pin">
+    <comp lib="0" loc="(120,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(460,60)" name="Pin">
+    <comp lib="0" loc="(600,130)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="S"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(460,90)" name="Pin">
+    <comp lib="0" loc="(600,260)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="Cout"/>
+      <a name="label" val="sum"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="1" loc="(220,100)" name="NOT Gate"/>
-    <comp lib="1" loc="(220,60)" name="NOT Gate"/>
-    <comp lib="1" loc="(340,180)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="30"/>
+    <comp lib="1" loc="(290,180)" name="XOR Gate"/>
+    <comp lib="1" loc="(420,110)" name="AND Gate"/>
+    <comp lib="1" loc="(420,260)" name="AND Gate"/>
+    <comp lib="1" loc="(550,130)" name="OR Gate"/>
+    <comp lib="1" loc="(550,260)" name="XOR Gate"/>
+    <comp lib="8" loc="(120,140)" name="Text">
+      <a name="text" val="A"/>
     </comp>
-    <comp lib="1" loc="(340,230)" name="AND Gate">
-      <a name="size" val="30"/>
+    <comp lib="8" loc="(120,185)" name="Text">
+      <a name="text" val="B"/>
     </comp>
-    <comp lib="1" loc="(340,280)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="30"/>
+    <comp lib="8" loc="(125,245)" name="Text">
+      <a name="text" val="Cin"/>
     </comp>
-    <comp lib="1" loc="(410,250)" name="OR Gate">
-      <a name="size" val="30"/>
+    <comp lib="8" loc="(560,110)" name="Text">
+      <a name="text" val="Cout"/>
     </comp>
-    <wire from="(120,120)" to="(150,120)"/>
-    <wire from="(120,60)" to="(130,60)"/>
-    <wire from="(120,90)" to="(140,90)"/>
-    <wire from="(130,170)" to="(130,220)"/>
-    <wire from="(130,170)" to="(310,170)"/>
-    <wire from="(130,220)" to="(130,270)"/>
-    <wire from="(130,220)" to="(310,220)"/>
-    <wire from="(130,270)" to="(310,270)"/>
-    <wire from="(130,60)" to="(130,170)"/>
-    <wire from="(140,240)" to="(310,240)"/>
-    <wire from="(140,60)" to="(140,90)"/>
-    <wire from="(140,60)" to="(190,60)"/>
-    <wire from="(140,90)" to="(140,240)"/>
-    <wire from="(150,100)" to="(150,120)"/>
-    <wire from="(150,100)" to="(190,100)"/>
-    <wire from="(150,120)" to="(150,290)"/>
-    <wire from="(150,290)" to="(310,290)"/>
-    <wire from="(220,100)" to="(270,100)"/>
-    <wire from="(220,60)" to="(260,60)"/>
-    <wire from="(260,180)" to="(260,280)"/>
-    <wire from="(260,180)" to="(310,180)"/>
-    <wire from="(260,280)" to="(310,280)"/>
-    <wire from="(260,60)" to="(260,180)"/>
-    <wire from="(270,100)" to="(270,190)"/>
-    <wire from="(270,190)" to="(310,190)"/>
-    <wire from="(340,180)" to="(430,180)"/>
-    <wire from="(340,230)" to="(360,230)"/>
-    <wire from="(340,280)" to="(360,280)"/>
-    <wire from="(360,230)" to="(360,240)"/>
-    <wire from="(360,240)" to="(380,240)"/>
-    <wire from="(360,260)" to="(360,280)"/>
-    <wire from="(360,260)" to="(380,260)"/>
-    <wire from="(410,250)" to="(440,250)"/>
-    <wire from="(430,60)" to="(430,180)"/>
-    <wire from="(430,60)" to="(460,60)"/>
-    <wire from="(440,90)" to="(440,250)"/>
-    <wire from="(440,90)" to="(460,90)"/>
+    <comp lib="8" loc="(565,240)" name="Text">
+      <a name="text" val="Sum"/>
+    </comp>
+    <wire from="(120,110)" to="(150,110)"/>
+    <wire from="(120,200)" to="(190,200)"/>
+    <wire from="(120,280)" to="(130,280)"/>
+    <wire from="(130,260)" to="(130,280)"/>
+    <wire from="(130,260)" to="(350,260)"/>
+    <wire from="(150,110)" to="(150,160)"/>
+    <wire from="(150,160)" to="(180,160)"/>
+    <wire from="(180,160)" to="(230,160)"/>
+    <wire from="(180,90)" to="(180,160)"/>
+    <wire from="(180,90)" to="(370,90)"/>
+    <wire from="(190,200)" to="(190,230)"/>
+    <wire from="(190,200)" to="(230,200)"/>
+    <wire from="(190,230)" to="(320,230)"/>
+    <wire from="(290,180)" to="(360,180)"/>
+    <wire from="(320,130)" to="(320,230)"/>
+    <wire from="(320,130)" to="(370,130)"/>
+    <wire from="(350,240)" to="(350,260)"/>
+    <wire from="(350,240)" to="(370,240)"/>
+    <wire from="(350,260)" to="(350,310)"/>
+    <wire from="(350,310)" to="(470,310)"/>
+    <wire from="(360,180)" to="(360,200)"/>
+    <wire from="(360,200)" to="(360,280)"/>
+    <wire from="(360,200)" to="(470,200)"/>
+    <wire from="(360,280)" to="(370,280)"/>
+    <wire from="(420,110)" to="(500,110)"/>
+    <wire from="(420,260)" to="(450,260)"/>
+    <wire from="(450,150)" to="(450,260)"/>
+    <wire from="(450,150)" to="(500,150)"/>
+    <wire from="(470,200)" to="(470,240)"/>
+    <wire from="(470,240)" to="(490,240)"/>
+    <wire from="(470,280)" to="(470,310)"/>
+    <wire from="(470,280)" to="(490,280)"/>
+    <wire from="(550,130)" to="(600,130)"/>
+    <wire from="(550,260)" to="(600,260)"/>
   </circuit>
   <circuit name="RippleCarry">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="RippleCarry"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(280,140)" name="Ground"/>
+    <comp lib="0" loc="(280,130)" name="Ground"/>
     <comp lib="0" loc="(790,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -214,7 +211,7 @@
     <wire from="(260,160)" to="(260,320)"/>
     <wire from="(260,160)" to="(580,160)"/>
     <wire from="(260,320)" to="(300,320)"/>
-    <wire from="(280,120)" to="(280,140)"/>
+    <wire from="(280,120)" to="(280,130)"/>
     <wire from="(280,120)" to="(300,120)"/>
     <wire from="(520,100)" to="(560,100)"/>
     <wire from="(520,180)" to="(760,180)"/>
@@ -296,29 +293,29 @@
     <comp lib="1" loc="(650,170)" name="XOR Gate"/>
     <comp lib="1" loc="(650,240)" name="XOR Gate"/>
     <comp lib="1" loc="(650,310)" name="XOR Gate"/>
-    <comp lib="8" loc="(616,68)" name="Text">
+    <comp lib="8" loc="(615,65)" name="Text">
       <a name="text" val="P0"/>
     </comp>
-    <comp lib="8" loc="(630,144)" name="Text">
+    <comp lib="8" loc="(630,140)" name="Text">
       <a name="text" val="P1"/>
     </comp>
-    <comp lib="8" loc="(633,428)" name="Text">
+    <comp lib="8" loc="(630,425)" name="Text">
       <a name="text" val="G0"/>
     </comp>
-    <comp lib="8" loc="(637,216)" name="Text">
+    <comp lib="8" loc="(635,215)" name="Text">
       <a name="text" val="P2"/>
     </comp>
-    <comp lib="8" loc="(637,290)" name="Text">
+    <comp lib="8" loc="(635,290)" name="Text">
       <a name="text" val="P3"/>
     </comp>
-    <comp lib="8" loc="(639,506)" name="Text">
+    <comp lib="8" loc="(635,505)" name="Text">
       <a name="text" val="G1"/>
     </comp>
-    <comp lib="8" loc="(642,668)" name="Text">
-      <a name="text" val="G3"/>
-    </comp>
-    <comp lib="8" loc="(644,585)" name="Text">
+    <comp lib="8" loc="(640,585)" name="Text">
       <a name="text" val="G2"/>
+    </comp>
+    <comp lib="8" loc="(640,665)" name="Text">
+      <a name="text" val="G3"/>
     </comp>
     <comp loc="(1180,140)" name="Prefixcell"/>
     <comp loc="(1180,280)" name="Prefixcell"/>
